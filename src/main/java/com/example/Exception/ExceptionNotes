@@ -1,0 +1,9 @@
+Exception Handling
+---------------------
+1)What is Exception .
+An unwanted and unExpected event that distrupt normal flow of the program is called Exception.
+
+2)What is the purpose of Exception Handling .
+Graceful Termination of the program like database connection .
+
+3)What is the meaning of Exception Handling .

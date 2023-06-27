@@ -1,0 +1,4 @@
+Difference beetween == and equal() methods
+---------------------------------------
+1) == operator is used for reference comparison or address comparison .
+2) equals() methods is used for content comparison .

@@ -1,0 +1,19 @@
+Thread Operation
+--------------------
+->Thread class provides methods to perform operations with threads.
+->This Thread class is present in java.lang package.So we don't need to import this packages.
+->Some important thread methods.
+    1)public String getName() - returns the name of thread
+    2)public void setName(String name) - set the name of thread
+    3)public void run() - contains the task of thread
+    4)public void start() - start thread by allocating resources.
+    5)public long getId() - returns id of thread
+    6)setPriority(p),getPriority() - set and get the priority
+    7)sleep(),join(),interrupt(),resume(),stop()......
+
+Daemon Thread
+--------------------
+->Daemon thread in java is a service provider thread that provides services to the user thread
+->setDaemon(Boolean)
+->public Boolean isDaemon()
+->Garbage Collector is best example of Daemon Thread
