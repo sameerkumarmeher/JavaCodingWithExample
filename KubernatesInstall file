@@ -1,0 +1,32 @@
+step-1
+----------------
+sudo apt update
+sudo apt install -y curl virtualbox
+
+step-2
+------------
+sudo snap install kubectl --classic
+
+step-3
+--------
+curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+
+step-4
+---------
+chmod +x minikube-linux-amd64
+
+step-5
+-------------
+sudo mv minikube-linux-amd64 /usr/local/bin/minikube
+
+step-6
+---------
+minikube version
+
+step-7
+---------
+minikube start
+
+step-8
+------------
+minikube status
